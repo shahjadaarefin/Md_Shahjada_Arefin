@@ -74,14 +74,6 @@ Aspiring **Cybersecurity Analyst** seeking entry-level roles in **threat detecti
 ---
 
 ## 📫 Contact Me
-- **Email:** your.email@example.com  
+- **Email:** shahjadaarefin@gmail.com  
 - **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 - **GitHub:** [github.com/yourprofile](https://github.com/yourprofile)  
-
----
-
-### 💡 Tips to Make This Even More “Cashy”
-- Add **screenshots or diagrams** of lab projects or bug bounty POCs  
-- Pin your **top repositories** in GitHub (like labs, scripts, reports)  
-- Add **GitHub Actions badges** for automation or portfolio updates  
-- Keep README **visually appealing** using emojis, horizontal lines, and markdown tables  
