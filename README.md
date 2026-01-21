@@ -14,6 +14,7 @@ I specialize in **ethical hacking,threat analysis,  incident response, and secur
 |---------------|----------|--------|
 | ![Google Certificate](https://img.shields.io/badge/Google-Cybersecurity-blue?style=for-the-badge) Google Professional Cybersecurity Certificate | Google / Coursera | ✅ Completed |
 | ![Security+ Badge](https://img.shields.io/badge/CompTIA-Security+-orange?style=for-the-badge) CompTIA Security+ | CompTIA | 🕒 In Progress |
+| 📂 View certificates here → [Certificates](./certificates)
 
 ---
 
