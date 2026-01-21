@@ -1,4 +1,4 @@
-# 🔐 Arefin | Cybersecurity Portfolio
+# 🔐 Md Shahjada Arefin | Cybersecurity Portfolio
 
 ![Cybersecurity Banner](https://via.placeholder.com/1200x300?text=Cybersecurity+Portfolio+%7C+Ethical+Hacking+%7C+Security+Analyst)
 
