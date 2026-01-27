@@ -89,7 +89,7 @@ Aspiring **Cybersecurity Analyst** seeking entry-level roles in **threat detecti
 ## 📫 Contact Me
 - **Email:** shahjadaarefin@gmail.com
 - **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/md-shahjada-arefin)  
-- **GitHub:** [github.com/yourprofile]((https://github.com/shahjadaarefin)  
+- **GitHub:** [github.com/yourprofile](https://github.com/shahjadaarefin)  
 
 ---
 
