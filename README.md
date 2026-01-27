@@ -8,6 +8,11 @@ I specialize in **ethical hacking,threat analysis,  incident response, and secur
 
 ---
 
+## 🎯 Career Objective
+Aspiring **Cybersecurity Analyst** seeking entry-level roles in **threat detection, security monitoring, and incident response**, while continuously expanding skills through hands-on projects and certifications like **CompTIA Security+**.  
+
+---
+
 ## 🎓 Certifications & Badges
 
 | Certification | Provider | Status |
