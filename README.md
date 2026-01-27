@@ -18,6 +18,18 @@ I specialize in **ethical hacking,threat analysis,  incident response, and secur
 
 ---
 
+## Skills
+[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | SOC Automation Lab|
+| Incident Response Planning and Execution      | SOC Automation Lab|
+| Case Management with TheHive                  | SOC Automation Lab|
+| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+
 ## 🛠️ Skills & Tools
 
 ### **Security & Frameworks**
@@ -77,8 +89,8 @@ Aspiring **Cybersecurity Analyst** seeking entry-level roles in **threat detecti
 ---
 
 ## 📫 Contact Me
-- **Email:** your.email@example.com  
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- **Email:** shahjadaarefin@gmail.com
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/md-shahjada-arefin)  
 - **GitHub:** [github.com/yourprofile](https://github.com/yourprofile)  
 
 ---
