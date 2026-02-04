@@ -1,8 +1,10 @@
-## 📌  ** Project Overview **
+## 📌  **Project Overview**
 
 This project demonstrates the implementation of a Security Information and Event Management (SIEM) system using Wazuh in a virtualized lab environment. The setup simulates real-world cyberattacks and monitors system activities such as SSH login attempts and file integrity changes.
 
 The lab includes an attacker machine (Kali Linux), a victim/blue team machine (Ubuntu), and a Wazuh SIEM server running on VirtualBox.
+
+---
 
 ## 🖥️ Lab Environment
 | Component | Description |
@@ -10,6 +12,8 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 | Victim / Blue Team | Ubuntu 24.04 LTS |
 | SIEM Platform | Wazuh v4.14.2 |
 | Virtualization | VirtualBox |
+
+---
 
 ## 🎯 Project Objectives
 - Deploy and configure Wazuh SIEM
