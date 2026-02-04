@@ -45,13 +45,13 @@ The following Wazuh configuration was used to collect system and file integrity 
   /home/hridoy/Desktop/wazuh
 </directories>
 
-## Monitored Activities
-SSH login attempts (/var/log/auth.log)
-File creation and deletion
-File modification
-Directory changes in real-time
+## **Monitored Activities**
+- SSH login attempts (/var/log/auth.log)
+- File creation and deletion
+- File modification
+- Directory changes in real-time
 
-## 🧪 Attack Simulation
+## 🧪 **Attack Simulation**
 Performed SSH brute-force attacks from Kali Linux
 Created and deleted files on Ubuntu
 Modified monitored directories
@@ -59,7 +59,7 @@ Tested SIEM alert generation
 Example command:
 touch who.txt
 
-## 📊 Key Features
+## 📊 **Key Features**
 ✅ Real-time File Integrity Monitoring
 ✅ SSH Authentication Monitoring
 ✅ Centralized Log Management
@@ -67,7 +67,7 @@ touch who.txt
 ✅ Incident Detection & Analysis
 ✅ Endpoint Visibility
 
-## 📈 Dashboard & Analysis
+## 📈 **Dashboard & Analysis**
 The Wazuh dashboard was used to:
 Monitor endpoint status
 View security alerts
