@@ -10,7 +10,6 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 
 | Certification | Provider | Status |
 |---------------|----------|--------|
-
 | Component          | Description |
 | Attacker           | Kali Linux |
 | Victim / Blue Team | Ubuntu 24.04 LTS |
