@@ -34,12 +34,12 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 - Security incidents are visualized in the Wazuh dashboard.
 
 ## 📂 **Log Collection Configuration**
-The following Wazuh configuration was used to collect system and file integrity logs:
+The following Wazuh configuration was used to collect ssh logs and file integrity logs:
 
 ---
 
 ```xml
- <localfile>
+<localfile>
   <log_format>syslog</log_format>
   <location>/var/log/auth.log</location>
 </localfile>
