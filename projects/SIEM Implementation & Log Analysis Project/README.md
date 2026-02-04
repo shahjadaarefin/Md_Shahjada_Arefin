@@ -8,12 +8,17 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 
 ## 🖥️ **Lab Environment**
 
-| **Component**          | **Description** |
-|---------------|----------|--------|
+| **Component** | **Description** |
+|---------------|-----------------|
 | Attacker           | Kali Linux |
 | Victim / Blue Team | Ubuntu 24.04 LTS |
 | SIEM Platform      | Wazuh v4.14.2 |
 | Virtualization     | VirtualBox |
+
+
+| ![Google Certificate](https://img.shields.io/badge/Google-Cybersecurity-blue?style=for-the-badge) Google Professional Cybersecurity Certificate | Google / Coursera | ✅ Completed |
+| ![Security+ Badge](https://img.shields.io/badge/CompTIA-Security+-orange?style=for-the-badge) CompTIA Security+ | CompTIA | 🕒 In Progress |
+| 📂 View certificates here → [Certificates](./certificates)
 
 ---
 
