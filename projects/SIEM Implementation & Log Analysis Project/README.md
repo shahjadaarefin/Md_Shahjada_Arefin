@@ -47,6 +47,7 @@ The following Wazuh configuration was used to collect system and file integrity 
 <directories realtime="yes" report_changes="yes" check_all="yes">
   /home/hridoy/Desktop/wazuh
 </directories>
+```
 
 ---
 
