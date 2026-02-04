@@ -52,7 +52,7 @@ The following Wazuh configuration was used to collect system and file integrity 
 ---
 
 ## **Monitored Activities**
-- SSH login attempts (/var/log/auth.log)
+- SSH login attempts (```/var/log/auth.log```)
 - File creation and deletion
 - File modification
 - Directory changes in real-time
@@ -63,7 +63,9 @@ The following Wazuh configuration was used to collect system and file integrity 
 - Modified monitored directories
 - Tested SIEM alert generation
 - Example command:
+```bash
   touch who.txt
+  ```
 
 ## 📊 **Key Features**
 - ✅ Real-time File Integrity Monitoring
@@ -96,16 +98,16 @@ The following Wazuh configuration was used to collect system and file integrity 
 - MITRE ATT&CK Framework
 
 ## 🚀 **Future Improvements**
-Integrate ELK Stack
-Add more attack scenarios
-Automate incident response
-Create custom detection rules
-Implement email/SIEM alerts
+- Integrate ELK Stack
+- Add more attack scenarios
+- Automate incident response
+- Create custom detection rules
+- Implement email/SIEM alerts
 
 ## 📚 **Learning Outcome**
-This project enhanced my practical skills in:
-Building SOC labs
-Monitoring endpoints
-Analyzing security events
-Investigating cyber threats
-Using enterprise-level SIEM tools
+- This project enhanced my practical skills in:
+- Building SOC labs
+- Monitoring endpoints
+- Analyzing security events
+- Investigating cyber threats
+- Using enterprise-level SIEM tools
