@@ -44,9 +44,7 @@ The following Wazuh configuration was used to collect system and file integrity 
   <location>/var/log/auth.log</location>
 </localfile>
 
-<directories realtime="yes" report_changes="yes" check_all="yes">
-  /home/hridoy/Desktop/wazuh
-</directories>
+<directories realtime="yes" report_changes="yes" check_all="yes">/home/hridoy/Desktop/wazuh</directories>
 ```
 
 ---
