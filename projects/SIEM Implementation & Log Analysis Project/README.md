@@ -6,12 +6,16 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 
 ---
 
-## 🖥️ Lab Environment
-| Component | Description |
-| Attacker | Kali Linux |
+## 🖥️ **Lab Environment**
+
+| Certification | Provider | Status |
+|---------------|----------|--------|
+
+| Component          | Description |
+| Attacker           | Kali Linux |
 | Victim / Blue Team | Ubuntu 24.04 LTS |
-| SIEM Platform | Wazuh v4.14.2 |
-| Virtualization | VirtualBox |
+| SIEM Platform      | Wazuh v4.14.2 |
+| Virtualization     | VirtualBox |
 
 ---
 
