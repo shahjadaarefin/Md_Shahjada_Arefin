@@ -37,14 +37,16 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 The following Wazuh configuration was used to collect system and file integrity logs:
 
 ---
-<localfile>
+
+""" <localfile>
   <log_format>syslog</log_format>
   <location>/var/log/auth.log</location>
 </localfile>
 
 <directories realtime="yes" report_changes="yes" check_all="yes">
   /home/hridoy/Desktop/wazuh
-</directories>
+</directories> """
+
 ---
 
 ## **Monitored Activities**
@@ -70,17 +72,17 @@ The following Wazuh configuration was used to collect system and file integrity 
 - ✅ Endpoint Visibility
 
 ## 📈 **Dashboard & Analysis**
-The Wazuh dashboard was used to:
-Monitor endpoint status
-View security alerts
-Analyze MITRE ATT&CK techniques
-Track compliance metrics
-Investigate incidents
-Detected techniques included:
-Credential Access (T1110)
-Privilege Escalation (T1548)
-Defense Evasion (T1078)
-Impact (T1070)
+- The Wazuh dashboard was used to:
+- Monitor endpoint status
+- View security alerts
+- Analyze MITRE ATT&CK techniques
+- Track compliance metrics
+- Investigate incidents
+- Detected techniques included:
+ Credential Access (T1110)
+- Privilege Escalation (T1548)
+- Defense Evasion (T1078)
+- Impact (T1070)
 
 ## 🛠️ **Skills Demonstrated**
 - SIEM Deployment & Management
