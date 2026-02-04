@@ -1,31 +1,31 @@
-## 📌  Project Overview
+## 📌  ** Project Overview **
 
 This project demonstrates the implementation of a Security Information and Event Management (SIEM) system using Wazuh in a virtualized lab environment. The setup simulates real-world cyberattacks and monitors system activities such as SSH login attempts and file integrity changes.
 
 The lab includes an attacker machine (Kali Linux), a victim/blue team machine (Ubuntu), and a Wazuh SIEM server running on VirtualBox.
 
 ## 🖥️ Lab Environment
-| Component | Description
-| Attacker | Kali Linux
-| Victim / Blue Team | Ubuntu 24.04 LTS
-| SIEM Platform | Wazuh v4.14.2
-| Virtualization | VirtualBox
-## 🎯 Project Objectives
+| Component | Description |
+| Attacker | Kali Linux |
+| Victim / Blue Team | Ubuntu 24.04 LTS |
+| SIEM Platform | Wazuh v4.14.2 |
+| Virtualization | VirtualBox |
 
-Deploy and configure Wazuh SIEM
-Monitor SSH authentication logs
-Track file creation, deletion, and modification
-Detect security incidents
-Map events to MITRE ATT&CK framework
-Practice real-world SOC monitoring skills
+## 🎯 Project Objectives
+- Deploy and configure Wazuh SIEM
+- Monitor SSH authentication logs
+- Track file creation, deletion, and modification
+- Detect security incidents
+- Map events to MITRE ATT&CK framework
+- Practice real-world SOC monitoring skills
 
 ## ⚙️ System Architecture
-Kali Linux performs simulated attacks.
-Ubuntu system generates security and file activity logs.
-Wazuh agent collects logs and monitors file integrity.
-Logs are forwarded to the Wazuh server.
-Wazuh analyzes events and generates alerts.
-Security incidents are visualized in the Wazuh dashboard.
+- Kali Linux performs simulated attacks.
+- Ubuntu system generates security and file activity logs.
+- Wazuh agent collects logs and monitors file integrity.
+- Logs are forwarded to the Wazuh server.
+- Wazuh analyzes events and generates alerts.
+- Security incidents are visualized in the Wazuh dashboard.
 
 ## 📂 Log Collection Configuration
 The following Wazuh configuration was used to collect system and file integrity logs:
