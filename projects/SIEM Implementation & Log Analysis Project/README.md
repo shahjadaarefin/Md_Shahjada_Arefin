@@ -38,14 +38,15 @@ The following Wazuh configuration was used to collect system and file integrity 
 
 ---
 
-""" <localfile>
+```xml
+ <localfile>
   <log_format>syslog</log_format>
   <location>/var/log/auth.log</location>
 </localfile>
 
 <directories realtime="yes" report_changes="yes" check_all="yes">
   /home/hridoy/Desktop/wazuh
-</directories> """
+</directories>
 
 ---
 
