@@ -60,7 +60,7 @@ Aspiring **Cybersecurity Analyst** seeking entry-level roles in **threat detecti
 
 | Project                                       | Labs                       |
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://github.com/shahjadaarefin/Md_Shahjada_Arefin/tree/main/projects/SIEM%20Implementation%20%26%20Log%20Analysis%20Project">Detection Lab</a>|
 | Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | SOC Automation Lab|
 | Incident Response Planning and Execution      | SOC Automation Lab|
