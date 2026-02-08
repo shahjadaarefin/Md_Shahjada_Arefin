@@ -24,6 +24,7 @@ The lab includes an attacker machine (Kali Linux), a victim/blue team machine (U
 - Detect security incidents
 - Map events to MITRE ATT&CK framework
 - Practice real-world SOC monitoring skills
+- Create custom rules for alert generation in wazuh
 
 ## ⚙️ **System Architecture**
 - Kali Linux performs simulated attacks.
