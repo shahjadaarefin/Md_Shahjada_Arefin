@@ -15,7 +15,6 @@ The lab environment was built using a NAT Network in VirtualBox to simulate a re
 To simulate production DNS, I configured the /etc/hosts file on the Kali machine to map the WAF's IP to the project domain:
 
 ```10.0.2.15   dvwa.test```
-
 ### 2. WAF Protection Settings
 I configured Attack Limiting to ensure automated mitigation of malicious actors:
 - Duration: 60 Seconds
@@ -31,7 +30,6 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 ### Test 2: Cross-Site Scripting (XSS)
 - Payload: ```<script>alert('Hacked')</script>```
 - Result: Blocked. The WAF intercepted the script tags and prevented the browser from executing the malicious code.
-
 ### Test 4: HTTP Flood (DoS Mitigation)
 - Attack Command: ab -n 500 -c 10 http://dvwa.test/
 - Result: SafeLine identified the high-frequency request pattern and triggered a CAPTCHA Challenge, protecting the backend CPU from exhaustion.
