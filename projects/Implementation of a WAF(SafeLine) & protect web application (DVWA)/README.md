@@ -29,6 +29,7 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 - Protected (Via WAF): Blocked. SafeLine's Semantic Analysis engine identified the logical anomaly and dropped the packet.
 ### Test 2: Cross-Site Scripting (XSS)
 - Payload: ```<script>alert('Hacked')</script>```
+- ![Xss Attack Logs Screenshot](images/xss_attack_logs.png)
 - Result: Blocked. The WAF intercepted the script tags and prevented the browser from executing the malicious code.
 ### Test 4: HTTP Flood (DoS Mitigation)
 - Attack Command: ab -n 500 -c 10 http://dvwa.test/
