@@ -10,6 +10,18 @@ The lab environment was built using a NAT Network in VirtualBox to simulate a re
 - WAF (Reverse Proxy): SafeLine WAF running on Ubuntu Server.
 - Victim App: Damn Vulnerable Web App (DVWA) hosted on the same Ubuntu server via Docker (Port 8080).
 
+
+## ⚙️ Configuration & Setup
+### 1. Networking (DNS Simulation)
+To simulate production DNS, I configured the /etc/hosts file on the Kali machine to map the WAF's IP to the project domain:
+```10.0.2.15   dvwa.test```
+### 2. WAF Protection Settings
+I configured Attack Limiting to ensure automated mitigation of malicious actors:
+- Duration: 60 Seconds
+- Attack Threshold: 1 (Zero Tolerance)
+- Action: Block (IP Banned for 30 minutes)
+- SSL: Generated and applied a self-signed certificate for https://dvwa.test.
+
 ## 📊 Collected Evidence
 Note: Screenshots of the following are located in the /images folder of this repo.
 - Intercepted Page: The 403 Forbidden screen shown to the Kali attacker.
