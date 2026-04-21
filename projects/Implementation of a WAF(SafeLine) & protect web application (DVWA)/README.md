@@ -22,6 +22,11 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 - Action: Block (IP Banned for 30 minutes)
 - SSL: Generated and applied a self-signed certificate for ```https://dvwa.test```.
 
+I configured Basic Access Limit to ensure automated mitigation of malicious actors:
+- Duration: 60 Seconds
+- Access: 100
+- Action: Block (IP Banned for 5 minutes)
+
 ## ⚔️ Security Testing & Evidence
 ### Test 1: SQL Injection (SQLi)
 - Payload: ```' OR 1=1 #```
