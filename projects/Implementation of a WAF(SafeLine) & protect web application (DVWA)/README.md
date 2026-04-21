@@ -50,6 +50,4 @@ Note: Screenshots of the following are located in the /mages folder of this repo
 - Semantic Analysis Details: Detailed view of the WAF parsing the attack payload.
 
 ## 🧠 Key Learnings
-- Reverse Proxy Logic: Configuring 000-default.conf and netplan to ensure proper traffic routing.
-- WAF vs. Regex: Understanding how SafeLine uses intelligent parsing instead of simple word-matching to stop obfuscated attacks.
-- SSL Termination: Deploying HTTPS at the edge (WAF) to inspect encrypted traffic before it reaches the web server.
+- This project provided hands-on experience in deploying an intelligent edge defense. I learned that modern web security is not about blocking strings, but about understanding intent through semantic parsing. Furthermore, I gained critical troubleshooting skills in managing session persistence and header forwarding within a reverse proxy environment
