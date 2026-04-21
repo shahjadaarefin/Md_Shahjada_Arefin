@@ -25,8 +25,9 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 ## ⚔️ Security Testing & Evidence
 ### Test 1: SQL Injection (SQLi)
 - Payload: ```' OR 1=1 #```
-- Bypass (Direct to 8080): Successful. Database records leaked.
-- Protected (Via WAF): Blocked. SafeLine's Semantic Analysis engine identified the logical anomaly and dropped the packet.
+- ![sql Attack Logs Screenshot](Images/sql_attack_logs.png)
+- ![sql Attack Screenshot](Images/sql_attack_block_by_waf.png)
+- Result : Blocked. SafeLine's Semantic Analysis engine identified the logical anomaly and dropped the packet.
 ### Test 2: Cross-Site Scripting (XSS)
 - Payload: ```<script>alert('Hacked')</script>```
 - ![Xss Attack Logs Screenshot](Images/xss_attack_logs.png)
