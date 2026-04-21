@@ -35,7 +35,7 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 - Result: Blocked. The WAF intercepted the script tags and prevented the browser from executing the malicious code.
 ### Test 4: HTTP Flood (DoS Mitigation)
 - Attack Command: ab -n 500 -c 10 http://dvwa.test/
-- ![HTTP Flood Attack Screenshot](Images/HTTP Flood (DoS)_logs.png)
+- ![HTTP Flood Attack Screenshot](Images/HTTP_Flood_(DoS)_logs.png)
 - Result: SafeLine identified the high-frequency request pattern and triggered a CAPTCHA Challenge, protecting the backend CPU from exhaustion.
 
 ## 📊 Collected Evidence
