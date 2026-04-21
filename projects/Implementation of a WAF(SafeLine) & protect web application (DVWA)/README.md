@@ -29,14 +29,14 @@ I configured Attack Limiting to ensure automated mitigation of malicious actors:
 - Protected (Via WAF): Blocked. SafeLine's Semantic Analysis engine identified the logical anomaly and dropped the packet.
 ### Test 2: Cross-Site Scripting (XSS)
 - Payload: ```<script>alert('Hacked')</script>```
-- ![Xss Attack Logs Screenshot](images/xss_attack_logs.png)
+- ![Xss Attack Logs Screenshot](Images/xss_attack_logs.png)
 - Result: Blocked. The WAF intercepted the script tags and prevented the browser from executing the malicious code.
 ### Test 4: HTTP Flood (DoS Mitigation)
 - Attack Command: ab -n 500 -c 10 http://dvwa.test/
 - Result: SafeLine identified the high-frequency request pattern and triggered a CAPTCHA Challenge, protecting the backend CPU from exhaustion.
 
 ## 📊 Collected Evidence
-Note: Screenshots of the following are located in the /images folder of this repo.
+Note: Screenshots of the following are located in the /mages folder of this repo.
 - Intercepted Page: The 403 Forbidden screen shown to the Kali attacker.
 - Dashboard Logs: Real-time event logs showing the "SQL Injection" classification.
 - Semantic Analysis Details: Detailed view of the WAF parsing the attack payload.
