@@ -9,8 +9,9 @@ The lab simulates multiple cyber attacks and analyzes how they are detected at t
 
 ## 🏗️ Architecture
 The project environment was built using a NAT Network in VirtualBox to simulate a real-world enterprise DMZ:
-- Attacker: Kali Linux ( Attacking via firefox, burpsuite, 
-- Victim : 
+- Attacker: Kali Linux ( Attacking via firefox, burpsuite, nmap).
+- Victim/Monitoring: Ubuntu ( monitoring via Suricata, Wireshark, tcpdump )
+- Victim: Damn Vulnerable Web App (DVWA) hosted on the same Ubuntu server.
 
 ---
 
@@ -18,28 +19,18 @@ The project environment was built using a NAT Network in VirtualBox to simulate 
 - Monitor network traffic for suspicious activity
 - Detect reconnaissance and malicious connections
 - Analyze logs and correlate security events
-- Create incident-ready documentation
 
 ---
 
 ## 🛠 Tools & Technologies
-- Zeek (Network traffic analysis)
 - Suricata (Network IDS)
 - Wireshark (Packet analysis)
-- Sysmon (Endpoint telemetry)
 - Kali Linux (Attack simulation)
-- Windows 10 (Victim machine)
+- Ubantu (Victim machine)
 
 ---
 
-## 🧪 Lab Environment
-- Attacker: Kali Linux (VM)
-- Victim: Windows 10
-- Network Mode: Bridged / Internal Network
-- Traffic Types:
-  - Port scanning (Nmap)
-  - HTTP requests
-  - Suspicious outbound connections
+
 
 ---
 
