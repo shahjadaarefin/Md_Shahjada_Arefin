@@ -7,6 +7,13 @@ The lab simulates multiple cyber attacks and analyzes how they are detected at t
 
 ---
 
+## 🏗️ Architecture
+The project environment was built using a NAT Network in VirtualBox to simulate a real-world enterprise DMZ:
+- Attacker: Kali Linux ( Attacking via firefox, burpsuite, 
+- Victim : 
+
+---
+
 ## 🎯 Objectives
 - Monitor network traffic for suspicious activity
 - Detect reconnaissance and malicious connections
