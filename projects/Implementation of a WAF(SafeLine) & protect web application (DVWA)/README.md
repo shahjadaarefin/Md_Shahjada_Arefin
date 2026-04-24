@@ -4,11 +4,15 @@
 
 This project demonstrates the implementation of a Web Application Firewall (SafeLine) to protect a vulnerable web application (DVWA). By positioning the WAF as a reverse proxy, I successfully mitigated several OWASP Top 10 vulnerabilities including SQL Injection, XSS, and Command Injection, while also implementing Rate Limiting to prevent HTTP Flooding.
 
+---
+
 ## 🏗️ Architecture
 The lab environment was built using a NAT Network in VirtualBox to simulate a real-world enterprise DMZ:
 - Attacker: Kali Linux (Attacking via curl, ab, and Firefox).
 - WAF (Reverse Proxy): SafeLine WAF running on Ubuntu Server.
 - Victim App: Damn Vulnerable Web App (DVWA) hosted on the same Ubuntu server via Docker (Port 8080).
+
+---
 
 ## ⚙️ Configuration & Setup
 ### 1. Networking (DNS Simulation)
@@ -27,6 +31,8 @@ I configured Basic Access Limit to ensure automated mitigation of malicious acto
 - Access: 100
 - Action: Block (IP Banned for 5 minutes)
 
+---
+
 ## ⚔️ Security Testing & Evidence
 ### Test 1: SQL Injection (SQLi)
 - Payload: ```' OR 1=1 #```
@@ -43,11 +49,15 @@ I configured Basic Access Limit to ensure automated mitigation of malicious acto
 - ![HTTP Flood Attack Screenshot](Images/HTTP_Flood_(DoS)_logs.png)
 - Result: SafeLine identified the high-frequency request pattern and triggered a CAPTCHA Challenge, protecting the backend CPU from exhaustion.
 
+---
+
 ## 📊 Collected Evidence
 Note: Screenshots of the following are located in the /mages folder of this repo.
 - Intercepted Page: The 403 Forbidden screen shown to the Kali attacker.
 - Dashboard Logs: Real-time event logs showing the "SQL Injection" classification.
 - Semantic Analysis Details: Detailed view of the WAF parsing the attack payload.
+
+---
 
 ## 🧠 Key Learnings
 - This project provided hands-on experience in deploying an intelligent edge defense. I learned that modern web security is not about blocking strings, but about understanding intent through semantic parsing. Furthermore, I gained critical troubleshooting skills in managing session persistence and header forwarding within a reverse proxy environment
