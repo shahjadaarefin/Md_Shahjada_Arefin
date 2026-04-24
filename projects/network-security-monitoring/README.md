@@ -1,8 +1,9 @@
 # 🔐 Network Security Monitoring Project
 
 ## 📌 Project Overview
-This project demonstrates hands-on experience in **Network Security Monitoring (NSM)** using open-source tools to detect, analyze, and investigate malicious network activity.  
-The goal is to simulate a **SOC analyst workflow** and produce actionable security findings.
+This project demonstrates real-time network traffic monitoring and attack detection using Suricata IDS and Wireshark in a controlled virtual lab environment.
+
+The lab simulates multiple cyber attacks and analyzes how they are detected at the network level.
 
 ---
 
