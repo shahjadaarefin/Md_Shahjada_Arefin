@@ -27,6 +27,13 @@ The project was implemented in an isolated VirtualBox laboratory environment.
 | Web Application |	DVWA |
 | Network | VirtualBox NAT network |
 
+### 2. Suricata Configuration
+
+### 3. Wireshark Configuration
+
+### 4. Web Application Setup
+
+
 ---
 
 ## ⚔️ Security Testing & Evidence
