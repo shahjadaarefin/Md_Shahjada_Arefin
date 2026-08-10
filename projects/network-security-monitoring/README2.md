@@ -27,9 +27,16 @@ The project was implemented in an isolated VirtualBox laboratory environment.
 | Web Application |	DVWA |
 | Network | VirtualBox NAT network |
 
-### 2. Suricata Configuration
+### 2. VirtualBox Network Configuration
 
-### 3. Wireshark Configuration
+Both virtual machines were connected to an isolated VirtualBox network using NAT so that attack simulations could be performed in a controlled environment.
+
+Kali Linux  →  10.0.2.3
+Ubuntu      →  10.0.2.15
+
+### 3. Suricata Configuration
+
+### 4. Wireshark Configuration
 Wireshark was installed on Ubuntu and configured to capture traffic from the same network interface monitored by Suricata.
 
 During attack simulations:
@@ -41,7 +48,7 @@ During attack simulations:
 - v. Stop the capture after the test.
 - vi. Save the capture as a .pcapng file.
 
-### 4. Web Application Setup
+### 5. Web Application Setup
 A deliberately vulnerable web application (DVWA) was deployed on the Ubuntu machine for controlled web-attack simulations.
 
 The application was used to generate HTTP traffic for:
