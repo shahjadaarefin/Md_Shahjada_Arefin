@@ -36,6 +36,12 @@ Both virtual machines were connected to an isolated VirtualBox network using NAT
 
 ### 3. Suricata Configuration
 
+```
+alert http any any -> any any (msg:"SQLi Attempt Detected"; flow:to_server,established; http.uri; pcre:"/(\%27|'|--|%23|#|union(\s+all)?\s+select|(or|and)\s+\d+=\d+)/i"; classtype:web-application-attack; sid:1001001; rev:2;)
+alert http any any -> any any (msg:"XSS Attempt Detected"; flow:to_server,established; http.uri; pcre:"/(<script.*?>.*?<\/script>|javascript:|onerror\s*=|onload\s*=|onclick\s*=|%3cscript%3e)/i"; classtype:web-application-attack; sid:1002001; rev:1;)
+alert http any any -> any any (msg:"Login Failure Brute Force Detected"; flow:to_client,established; http.response_body; pcre:"/(invalid password|login failed|incorrect)/i"; detection_filter:track by_dst, count 10, seconds 60; sid:1002004; rev:1;)
+```
+
 ### 4. Wireshark Configuration
 Wireshark was installed on Ubuntu and configured to capture traffic from the same network interface monitored by Suricata.
 
