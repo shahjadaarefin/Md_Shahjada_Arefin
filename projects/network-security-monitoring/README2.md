@@ -30,6 +30,16 @@ The project was implemented in an isolated VirtualBox laboratory environment.
 ### 2. Suricata Configuration
 
 ### 3. Wireshark Configuration
+Wireshark was installed on Ubuntu and configured to capture traffic from the same network interface monitored by Suricata.
+
+During attack simulations:
+
+- 1. Start Wireshark.
+- 2. Select the laboratory network interface.
+- 3. Start packet capture.
+- 4. Launch the attack from Kali.
+- 5. Stop the capture after the test.
+- 6. Save the capture as a .pcapng file.
 
 ### 4. Web Application Setup
 
