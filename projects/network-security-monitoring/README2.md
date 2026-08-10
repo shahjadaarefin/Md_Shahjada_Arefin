@@ -36,6 +36,9 @@ Both virtual machines were connected to an isolated VirtualBox network using NAT
 
 ### 3. Suricata Configuration
 
+Suricata was configured on Ubuntu to monitor the network interface used by the lab.
+
+add custom rules in suricata.rules file:
 ```
 alert http any any -> any any (msg:"SQLi Attempt Detected"; flow:to_server,established; http.uri; pcre:"/(\%27|'|--|%23|#|union(\s+all)?\s+select|(or|and)\s+\d+=\d+)/i"; classtype:web-application-attack; sid:1001001; rev:2;)
 alert http any any -> any any (msg:"XSS Attempt Detected"; flow:to_server,established; http.uri; pcre:"/(<script.*?>.*?<\/script>|javascript:|onerror\s*=|onload\s*=|onclick\s*=|%3cscript%3e)/i"; classtype:web-application-attack; sid:1002001; rev:1;)
