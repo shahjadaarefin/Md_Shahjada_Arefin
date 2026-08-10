@@ -42,7 +42,15 @@ During attack simulations:
 - vi. Save the capture as a .pcapng file.
 
 ### 4. Web Application Setup
+A deliberately vulnerable web application (DVWA) was deployed on the Ubuntu machine for controlled web-attack simulations.
 
+The application was used to generate HTTP traffic for:
+
+- XSS testing
+- SQL injection testing
+- Authentication attack testing
+
+The vulnerable application was kept inside the isolated laboratory environment.
 
 ---
 
