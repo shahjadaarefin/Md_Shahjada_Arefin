@@ -37,9 +37,9 @@ During attack simulations:
 - i. Start Wireshark.
 - ii. Select the laboratory network interface.
 - iii. Start packet capture.
-- 4. Launch the attack from Kali.
-- 5. Stop the capture after the test.
-- 6. Save the capture as a .pcapng file.
+- iv. Launch the attack from Kali.
+- v. Stop the capture after the test.
+- vi. Save the capture as a .pcapng file.
 
 ### 4. Web Application Setup
 
