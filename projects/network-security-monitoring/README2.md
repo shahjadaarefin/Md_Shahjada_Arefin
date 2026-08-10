@@ -31,8 +31,8 @@ The project was implemented in an isolated VirtualBox laboratory environment.
 
 Both virtual machines were connected to an isolated VirtualBox network using NAT so that attack simulations could be performed in a controlled environment.
 
-| Kali Linux  →  10.0.2.3 |
-| Ubuntu      →  10.0.2.15 |
+- Kali Linux  →  10.0.2.3
+- Ubuntu      →  10.0.2.15
 
 ### 3. Suricata Configuration
 
