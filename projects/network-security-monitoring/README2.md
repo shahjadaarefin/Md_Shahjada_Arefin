@@ -33,4 +33,7 @@ The project environment was built using a NAT Network in VirtualBox to simulate 
 ---
 
 ## 🧠 Key Learnings
-- fff
+- Intrusion detection using Suricata
+- Network traffic analysis
+- Attack pattern recognition
+- Packet-level investigation
