@@ -34,7 +34,7 @@ Wireshark was installed on Ubuntu and configured to capture traffic from the sam
 
 During attack simulations:
 
--1. Start Wireshark.
+- 1.Start Wireshark.
 - 2. Select the laboratory network interface.
 - 3. Start packet capture.
 - 4. Launch the attack from Kali.
